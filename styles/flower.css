@@ -1,1 +1,42 @@
+/* used all section style */
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}	
+.btn{
+    color: #FFF;
+    border-radius: 8px;
+    background: #E55473;
+    font-size: 20px;
+    font-weight: 90;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 0;
+}
+/* header related style */
+
+.heading-line{ 
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+heading-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+.background{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(229, 84, 115, 0.10);
+}
+.background-image{
+    width: 635px;
+    height: 800px;
+}
 
