@@ -115,7 +115,9 @@ heading-description{
     height: 320px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    margin: 195px 240px 128px 470px;
+     margin: 195px 240px 128px 470px; 
+    background-repeat: no-repeat;
+    
 }
 .services-logo{
     display: flex;
@@ -178,7 +180,7 @@ heading-description{
     gap: 10px;
     border: 0;
 }
-/* social media style */
+ /* social media style  */
 .social-media-container{
     margin-bottom: 128px;
 }
@@ -188,44 +190,50 @@ heading-description{
     justify-content: center;
     align-items: center;
 }
-.social-images{ 
+ .social-images{  
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
 }
-/* information section style */
-.information-section{
+.button-section{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url('Rectangle\ 9.png');
-    width: 1440px; 
-    height: 449px;  
-    margin: 128px 0px 128px 480px;
-    background-repeat:no-repeat;
-    
 }
-.information-subscription-container{
+/* subscribe style */
+#subscribe-heading{
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-
+    align-items: center;
 }
-.input-section{
-    border-radius: 8px;
-    background: #FFF;
+#subscribe-input{
     width: 700px;
-    height: 64px;
+height: 64px;
+border-radius: 8px;
+background: #FFF;
+}
+.subscribe-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe-section{
+    background-image: url('Rectangle\ 9.png');
+    width: 1440px;
+    height: 449px;
+    border-radius: 8px;
+    margin-left: 500px;
 }
 /* extra section style */
-.wishing{
+#extra-head{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(pngwing\ 6.png); 
-    background-color: bisque;
-    margin-bottom: 20px;
+}
+.extra-pic{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 20px;
 }
