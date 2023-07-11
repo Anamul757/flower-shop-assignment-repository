@@ -141,7 +141,13 @@ text-decoration-line: underline;
     justify-content: center;
     align-items: center;
 }
-
+.container-heading-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
     .discount-heading-line{
         color: #272727;
         font-size: 40px;
@@ -159,13 +165,7 @@ text-decoration-line: underline;
     height: 620px;
     border-radius: 8px;
 }
-    .discount-heading-description{
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-}
+    
     .btn-des{
     color: #FFF;
     display: inline-flex;
@@ -178,4 +178,21 @@ text-decoration-line: underline;
     gap: 10px;
     border: 0;
 }
+/* social media style */
+.social-media-container{
+    margin-bottom: 128px;
+}
+.social-media-heading{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.social-images{ 
+    display: flex;
+    ;
+justify-content: center;
+    align-items: center;
+   gap: 24px;
 
+}
