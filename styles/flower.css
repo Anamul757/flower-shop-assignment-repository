@@ -93,12 +93,12 @@ heading-description{
     justify-content: center;
     margin-right: 24px;
     text-decoration: underline;
-    }
+}
     /* service contain style */
 .services-container{
     display: flex;
     justify-content: space-around;
-   align-items: center;
+    align-items: center;
     width: 1440px;
     height: 320px;
     border-radius: 8px;
@@ -110,13 +110,60 @@ heading-description{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    }
+}
     .services-section{
-        color: rgba(39, 39, 39, 0.80);
-        text-align: center;
-        font-size: 24px;
-        font-weight: 600;
-        line-height: 35px; 
-        justify-content: center;
-        align-items: center;
-    }
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px; 
+    justify-content: center;
+    align-items: center;
+}
+    /* discount section style */
+
+
+        .discount-heading-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    .discount-heading-line{
+        color: #272727;
+        font-size: 40px;
+        font-weight: 800;
+}
+
+    .discounting{
+    color: #E55473;
+}
+    .discount-section{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: rgba(229, 84, 115, 0.05);
+    height: 620px;
+    border-radius: 8px;
+}
+    .discount-heading-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+    .btn-des{
+    color: #FFF;
+    display: inline-flex;
+    align-items: flex-start;
+    font-size: 20px;
+    font-weight: 70;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    gap: 10px;
+    border: 0;
+}
+
