@@ -205,6 +205,7 @@ heading-description{
     height: 449px;  
     margin: 128px 0px 128px 480px;
     background-repeat:no-repeat;
+    
 }
 .information-subscription-container{
     display: flex;
@@ -218,4 +219,13 @@ heading-description{
     background: #FFF;
     width: 700px;
     height: 64px;
+}
+/* extra section style */
+.wishing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(pngwing\ 6.png); 
+    background-color: bisque;
+    margin-bottom: 20px;
 }
