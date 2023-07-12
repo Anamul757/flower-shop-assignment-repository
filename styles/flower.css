@@ -106,34 +106,6 @@ heading-description{
     line-height: 35px;
     text-decoration-line: underline;
 }
-    /* service contain style */
-.services-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 1440px;
-    height: 320px;
-    border-radius: 8px;
-    background: rgba(39, 39, 39, 0.05);
-     margin: 195px 240px 128px 470px; 
-    background-repeat: no-repeat;
-    
-}
-.services-logo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.services-section{
-    color: rgba(39, 39, 39, 0.80);
-    text-align: center;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 35px; 
-    justify-content: center;
-    align-items: center;
-}
 /* discount section style */
 
 
@@ -207,10 +179,11 @@ heading-description{
     align-items: center;
 }
 #subscribe-input{
-    width: 700px;
+    width: 700px; 
     height: 64px;
     border-radius: 8px;
     background: #FFF;
+    background-position: 0px 500px;
 }
 .subscribe-body{
     display: flex;
@@ -219,11 +192,16 @@ heading-description{
     justify-content: center;
 }
 .subscribe-section{
+ 
     background-image: url('Rectangle\ 9.png');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
     width: 1440px;
     height: 449px;
     border-radius: 8px;
-    margin-left: 500px;
+    padding: 10px 40px;
+   
 }
 /* extra section style */
 #extra-head{
@@ -263,8 +241,12 @@ font-size: 16px;
 font-weight: 400;
 }
 .footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: #111010;
+    background-size:cover;
     width: 1922px;
     height: 449px;
-   padding: 300px;
 }
